@@ -1,0 +1,53 @@
+button {
+  cursor: pointer;
+}
+
+.header {
+  background: var(--secondary);
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 300;
+  @media (min-width: 1024px) {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    max-width: 1080px;
+    margin: 0 auto;
+    box-sizing: content-box;
+  }
+
+  &__logo {
+    font-size: 18px;
+    line-height: 20px;
+    @media (min-width: 1024px) {
+      font-size: 24px;
+      line-height: 29px;
+    }
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    @media (min-width: 1024px) {
+      gap: 30px;
+    }
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1024px) {
+
+}
