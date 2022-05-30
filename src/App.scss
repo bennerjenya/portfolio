@@ -3,6 +3,10 @@
   min-height: 100vh;
 }
 
+body:not([data-theme='dark']) .tab__button.active {
+  color: var(--main);
+}
+
 .title {
   color: var(--text-white);
   margin-bottom: 24px;
@@ -78,6 +82,10 @@
     font-weight: 300;
     border-radius: 4px;
     border: 2px solid transparent;
+
+    & path {
+      fill: var(--text-white);
+    }
 
     &--email {
       background: linear-gradient(0deg, var(--secondary) 0%, var(--secondary) 100%),
@@ -184,6 +192,7 @@
     &.active {
       background: var(--tab-border);
       border-bottom: 2px solid var(--text-white);
+
       @media (min-width: 1024px) {
         border-left: 2px solid var(--text-white);
         border-bottom: 0;

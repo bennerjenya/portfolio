@@ -1,4 +1,7 @@
 {
+  "header": {
+    "logo": "EB."
+  },
   "top": {
     "greetings": "Hey, i'm",
     "name": "Eugene Benner",
@@ -6,5 +9,8 @@
     "buttons": {
       "email": "Send an email"
     }
+  },
+  "footer": {
+    "title": "CONTACTS"
   }
 }

@@ -28,7 +28,7 @@ export default class App extends React.Component<any> {
                         })}
                     </Tabs>
                 </div>
-                <div className="container">
+                <div className="container" id="Projects">
                     <div className="title">Featured projects</div>
                     <div className="projectsList">
                         {projects.map((item, index) => {

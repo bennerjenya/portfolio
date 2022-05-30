@@ -16,18 +16,11 @@ export interface tabProps {
 
 export const projects: (Props)[] = [
     {
-        name: 'Zollaser',
-        image: require('../assets/zollaser.PNG'),
-        links: ['', 'https://zollaser.ru/'],
-        stack: 'HTML - CSS - JS(Scrollmagic)',
-        text: 'Exclusive Zollaser Distributor'
-    },
-    {
-        name: 'Remer',
-        image: require('../assets/remer.PNG'),
+        name: 'Petmode',
+        image: require('../assets/petmode.PNG'),
         links: ['', ''],
-        stack: 'HTML - CSS - JS(SwiperJS)',
-        text: 'Internet shop of faucets'
+        stack: 'NuxtJS - SwiperJS - SCSS',
+        text: 'Internet shop of pets'
     },
     {
         name: 'YOD',
@@ -37,11 +30,11 @@ export const projects: (Props)[] = [
         text: 'Website'
     },
     {
-        name: 'Petmode',
-        image: require('../assets/petmode.PNG'),
-        links: ['', ''],
-        stack: 'NuxtJS - SwiperJS - SCSS',
-        text: 'Internet shop of pets'
+        name: 'Zollaser',
+        image: require('../assets/zollaser.PNG'),
+        links: ['', 'https://zollaser.ru/'],
+        stack: 'HTML - CSS - JS(Scrollmagic)',
+        text: 'Exclusive Zollaser Distributor'
     },
     {
         name: 'Agro smart assistant',
@@ -51,15 +44,22 @@ export const projects: (Props)[] = [
         text: 'Morphometry'
     },
     {
-        name: 'Website for teacher',
-        image: require('../assets/train.PNG'),
+        name: 'Remer',
+        image: require('../assets/remer.PNG'),
         links: ['', ''],
-        stack: 'HTML - CSS - JS',
-        text: 'Technical and judicial examination of railway transport'
+        stack: 'HTML - CSS - JS(SwiperJS)',
+        text: 'Internet shop of faucets'
     },
+    // {
+    //     name: 'Website for teacher',
+    //     image: require('../assets/train.PNG'),
+    //     links: ['', ''],
+    //     stack: 'HTML - CSS - JS',
+    //     text: 'Technical and judicial examination of railway transport'
+    // },
     {
         name: 'This portfolio',
-        image: require('../assets/remer.PNG'),
+        image: require('../assets/portfolio.jpg'),
         links: ['', ''],
         stack: 'React - TS - i18n - SCSS',
         text: 'Just for fun'

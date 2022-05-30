@@ -7,9 +7,9 @@ const Footer = () => {
     return (
         <>
             <footer className="footer">
-                <div className="container">
+                <div className="container" id="Contacts">
                     <div className="footer__inner">
-                        <div className="footer__title">CONTACT</div>
+                        <div className="footer__title">{t('footer.title')}</div>
                         <ul className="footer__links">
                             <li>
                                 <a href="mailto:bennerov@mail.ru" className="footer__link">

@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
 
 :root {
+    --main: #FFFFFF;
+    --secondary: #FFFFFF;
+    --text-white: #1A1A1A;
+    --text-gray: #1A1A1A;
+    --text-blue: #1F26B7;
+    --link-border: #C6C6C6;
+    --tab-border: #1F1E1E;
+}
+
+[data-theme='dark'] {
     --main: #000000;
     --secondary: #1A1A1A;
     --text-white: #F0F0F0;
@@ -14,6 +24,10 @@ body {
     margin: 0;
     font-family: 'Inter', sans-serif;
     background: var(--main);
+}
+
+body.noScroll {
+    overflow-y: hidden;
 }
 
 body::-webkit-scrollbar {

@@ -3,16 +3,70 @@ button {
 }
 
 .header {
+  position: sticky;
+  top: 0;
   background: var(--secondary);
-  color: #FFFFFF;
+  color: var(--text-white);
   font-size: 14px;
   line-height: 18px;
   font-weight: 300;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, .4);
   @media (min-width: 1024px) {
     font-size: 18px;
     line-height: 22px;
   }
+  &__menuBtn {
+    font-size: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    @media (min-width: 1024px) {
+      display: none;
+    }
+    & span {
+      //position: absolute;
+      width: 24px;
+      height: 2px;
+      background: var(--text-white);
+      transition: all .2s linear;
+    }
+    &--active {
+      & span {
+        &:nth-child(1) {
+          transform: rotate(45deg) translate(5px, 5px);
+        }
+        &:nth-child(2) {
+          transform: translateX(-100%);
+          width: 0;
+        }
+        &:nth-child(3) {
+          transform: rotate(-45deg) translate(5px, -5px);
+        }
+      }
+    }
+  }
 
+  &__menu {
+    position: absolute;
+    right: 0;
+    top: 70px;
+    background: var(--secondary);
+    width: 0;
+    height: calc(100vh - 70px);
+    padding: 0;
+    transition: all .2s;
+    overflow: hidden;
+    @media (min-width: 1024px) {
+      position: static;
+      height: auto;
+      width: auto;
+      background: transparent;
+    }
+    &--active {
+      padding: 0 25px;
+      width: 100vw;
+    }
+  }
   &__container {
     display: flex;
     align-items: center;
@@ -21,6 +75,7 @@ button {
     max-width: 1080px;
     margin: 0 auto;
     box-sizing: content-box;
+    position: relative;
   }
 
   &__logo {
@@ -32,12 +87,21 @@ button {
     }
   }
 
+  &__link {
+    cursor: pointer;
+  }
+
   &__links {
     display: flex;
-    align-items: center;
-    gap: 10px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+    font-size: 24px;
     @media (min-width: 1024px) {
-      gap: 30px;
+      font-size: 16px;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
     }
   }
 
@@ -45,6 +109,9 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    & path {
+      fill: var(--text-white);
+    }
   }
 }
 

@@ -45,5 +45,8 @@
     -moz-border-radius: 4px;
     border-radius: 4px;
     color: var(--text-white);
+    & path {
+      fill: var(--text-white);
+    }
   }
 }
