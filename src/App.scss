@@ -78,22 +78,20 @@
     font-weight: 300;
     border-radius: 4px;
     border: 2px solid transparent;
+
     &--email {
-      background:
-              linear-gradient(0deg, var(--secondary) 0%, var(--secondary) 100%),
-              linear-gradient(51.06deg, #9358F7 0.87%, #9259F7 7.31%, #8E5DF6 13.75%, #8862F5 20.19%, #806BF4 26.63%, #7575F2 33.07%, #6882F0 39.51%, #5990EE 45.95%, #4A9FEB 52.39%, #3BADE9 58.84%, #2EBAE7 65.28%, #23C4E5 71.72%, #1BCDE4 78.16%, #15D2E3 84.6%, #11D6E2 91.04%, #10D7E2 97.48%);
+      background: linear-gradient(0deg, var(--secondary) 0%, var(--secondary) 100%),
+      linear-gradient(51.06deg, #9358F7 0.87%, #9259F7 7.31%, #8E5DF6 13.75%, #8862F5 20.19%, #806BF4 26.63%, #7575F2 33.07%, #6882F0 39.51%, #5990EE 45.95%, #4A9FEB 52.39%, #3BADE9 58.84%, #2EBAE7 65.28%, #23C4E5 71.72%, #1BCDE4 78.16%, #15D2E3 84.6%, #11D6E2 91.04%, #10D7E2 97.48%);
     }
 
     &--telegram {
-      background:
-              linear-gradient(0deg, var(--secondary) 0%, var(--secondary) 100%),
-              linear-gradient(135deg, #6964DE 2.88%, #FCA6E9 100%);
+      background: linear-gradient(0deg, var(--secondary) 0%, var(--secondary) 100%),
+      linear-gradient(135deg, #6964DE 2.88%, #FCA6E9 100%);
     }
 
     &--github {
-      background:
-              linear-gradient(0deg, var(--secondary) 0%, var(--secondary) 100%),
-              linear-gradient(132.33deg, #D24074 -0.67%, #6518B4 102.54%);
+      background: linear-gradient(0deg, var(--secondary) 0%, var(--secondary) 100%),
+      linear-gradient(132.33deg, #D24074 -0.67%, #6518B4 102.54%);
     }
 
     &--email, &--telegram, &--github {
@@ -134,6 +132,7 @@
     flex-direction: row;
     gap: 88px;
   }
+
   &__buttonsList {
     display: flex;
     align-items: center;
@@ -146,6 +145,28 @@
 }
 
 .tab {
+  font-weight: 300;
+
+  &__top, &__list, &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__content {
+    @media (min-width: 1024px) {
+      width: calc(100% - 331px);
+    }
+  }
+
+  &__top {
+    @media (min-width: 1024px) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
   &__button {
     width: 193px;
     height: 55px;
@@ -174,6 +195,10 @@
     font-size: 18px;
     line-height: 22px;
     font-weight: 300;
+    @media (min-width: 1024px) {
+      font-size: 24px;
+      line-height: 29px;
+    }
   }
 
   &__period {
@@ -181,6 +206,10 @@
     line-height: 18px;
     font-weight: 300;
     color: var(--text-gray);
+    @media (min-width: 1024px) {
+      font-size: 16px;
+      line-height: 24px;
+    }
   }
 
   &__location {
@@ -188,6 +217,10 @@
     line-height: 16px;
     font-weight: 300;
     color: var(--text-blue);
+    @media (min-width: 1024px) {
+      font-size: 14px;
+      line-height: 24px;
+    }
   }
 
   &__item {
@@ -195,5 +228,9 @@
     line-height: 18px;
     font-weight: 300;
     color: var(--text-gray);
+    @media (min-width: 1024px) {
+      font-size: 16px;
+      line-height: 24px;
+    }
   }
 }

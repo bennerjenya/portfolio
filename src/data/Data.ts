@@ -26,21 +26,21 @@ export const projects: (Props)[] = [
         name: 'Remer',
         image: require('../assets/remer.PNG'),
         links: ['', ''],
-        stack: 'HTML - CSS - JS',
+        stack: 'HTML - CSS - JS(SwiperJS)',
         text: 'Internet shop of faucets'
     },
     {
         name: 'YOD',
         image: require('../assets/yod.PNG'),
         links: ['', ''],
-        stack: 'NuxtJS - SCSS',
+        stack: 'NuxtJS - SwiperJS - SCSS',
         text: 'Website'
     },
     {
         name: 'Petmode',
         image: require('../assets/petmode.PNG'),
         links: ['', ''],
-        stack: 'NuxtJS - SCSS',
+        stack: 'NuxtJS - SwiperJS - SCSS',
         text: 'Internet shop of pets'
     },
     {
@@ -68,10 +68,38 @@ export const projects: (Props)[] = [
 export const data: (tabProps)[] = [
     {
         position: 'Frontend Developer (Remote)',
-        period: 'Oct 2019 - Nov 2019',
+        period: 'Aug 2020 - Mar 2022',
+        location: 'Moscow / Russia',
+        responsibilities: ['- Developing small games using JS and later VueJS(Router, Vuex, i18n)', '- Developing multi page dating apps', '- Developing multi page sport apps', '- While worked learned VueJS'],
+        name: 'Many small apps'
+    },
+    {
+        position: 'Frontend Developer (Remote)',
+        period: 'Oct 2020 - Nov 2020',
         location: 'Moscow / Russia',
         responsibilities: ['- Developing UI using Scrollmagic library'],
         name: 'Zollaser'
+    },
+    {
+        position: 'Frontend Developer (Remote)',
+        period: 'Jan 2021 - Jun 2021',
+        location: 'Moscow / Russia',
+        responsibilities: ['- Developing UI using NuxtJS'],
+        name: 'Petmode'
+    },
+    {
+        position: 'Frontend Developer (Remote)',
+        period: 'May 2021',
+        location: 'Moscow / Russia',
+        responsibilities: ['- Developing UI using NuxtJS'],
+        name: 'YOD'
+    },
+    {
+        position: 'Frontend Developer (Remote)',
+        period: 'Nov 2021 - Apr 2022',
+        location: 'Moscow / Russia',
+        responsibilities: ['- Developing UI', '- Learned basics of D3 library', '- Learned how to solve big tasks', '- Learned how to work in a team'],
+        name: 'Agro smart assistant'
     },
     {
         position: 'Frontend Developer (Remote)',
@@ -79,33 +107,5 @@ export const data: (tabProps)[] = [
         location: 'Moscow / Russia',
         responsibilities: ['- Developing UI'],
         name: 'Remer'
-    },
-    {
-        position: 'Frontend Developer (Remote)',
-        period: 'May 2021',
-        location: 'Moscow / Russia',
-        responsibilities: ['- Developing UI'],
-        name: 'YOD'
-    },
-    {
-        position: 'Frontend Developer (Remote)',
-        period: 'Jan 2021 - Jun 2021',
-        location: 'Moscow / Russia',
-        responsibilities: ['- Developing UI'],
-        name: 'Petmode'
-    },
-    {
-        position: 'Frontend Developer (Remote)',
-        period: 'Nov 2021 - Apr 2022',
-        location: 'Moscow / Russia',
-        responsibilities: ['- Developing UI', '- Learned how to solve big tasks', '- Learned how to work in a team'],
-        name: 'Agro smart assistant'
-    },
-    {
-        position: 'Frontend Developer (Remote)',
-        period: 'Aug 2019 - Mar 2022',
-        location: 'Moscow / Russia',
-        responsibilities: ['- Developing small games using JS and later VueJS(Router, Vuex, i18n)', '- Developing dating apps', '- Developing sport apps', '- While worked learning VueJS'],
-        name: 'Many small apps'
     }
 ]

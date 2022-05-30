@@ -17,7 +17,7 @@ export default class Tab extends React.Component<tabProps> {
                     <div className="tab__location">{this.props.location}</div>
                     <ul className="tab__list">
                         {this.props.responsibilities.map((item, index) => {
-                            return <div key={index} className="tab__item">{item}</div>
+                            return <li key={index} className="tab__item">{item}</li>
                         })}
                     </ul>
                 </div>
