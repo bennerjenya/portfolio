@@ -60,7 +60,7 @@ export const projects: (Props)[] = [
     {
         name: 'This portfolio',
         image: require('../assets/portfolio.jpg'),
-        links: ['', ''],
+        links: ['https://github.com/bennerjenya/portfolio', ''],
         stack: 'React - TS - i18n - SCSS',
         text: 'Just for fun'
     }
