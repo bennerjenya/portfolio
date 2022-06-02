@@ -5,6 +5,7 @@ button {
 .header {
   position: sticky;
   top: 0;
+  z-index: 1;
   background: var(--secondary);
   color: var(--text-white);
   font-size: 14px;

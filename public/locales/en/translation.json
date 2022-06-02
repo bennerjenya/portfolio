@@ -10,6 +10,9 @@
       "email": "Send an email"
     }
   },
+  "project": {
+    "overlayText": "Click to zoom image"
+  },
   "footer": {
     "title": "CONTACTS"
   }

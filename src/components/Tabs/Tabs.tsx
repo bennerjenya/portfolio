@@ -6,7 +6,7 @@ interface Props {
 }
 
 const Tabs: React.FC<Props> = ({children}) => {
-    const [selectedTab, setSelectedTab] = useState(0)
+    const [selectedTab, setSelectedTab] = useState<number>(0)
 
     return (
         <div className={'tabs'}>
