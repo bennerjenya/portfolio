@@ -46,7 +46,7 @@ export const projects: (Props)[] = [
     {
         name: 'Remer',
         image: require('../assets/remer.PNG'),
-        links: ['', ''],
+        links: ['', 'http://masterbathroom.pro/'],
         stack: 'HTML - CSS - JS(SwiperJS)',
         text: 'Internet shop of faucets'
     },
