@@ -36,7 +36,7 @@ const Top = () => {
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" rel="noreferrer" href="https://t.me/mackswel"
+                        <a target="_blank" rel="noreferrer" href="https://t.me/benner_jenya"
                            className="top__link top__link--telegram">
                             <svg fill="none" height="24" viewBox="0 0 24 24" width="24"
                                  xmlns="http://www.w3.org/2000/svg">
