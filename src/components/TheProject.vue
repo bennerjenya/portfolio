@@ -24,7 +24,7 @@ const { isShown, openModal, closeModal } = useModal();
       <div class="project__top">
         <div class="project__name">{{ project.name }}</div>
         <div class="project__links">
-          <a :href="project.links[0]">
+          <a :href="project.links[0]" target="_blank" rel="noopener">
             <svg
               width="24"
               height="25"
@@ -38,7 +38,7 @@ const { isShown, openModal, closeModal } = useModal();
               />
             </svg>
           </a>
-          <a :href="project.links[1]">
+          <a :href="project.links[1]" target="_blank" rel="noopener">
             <svg
               width="24"
               height="25"

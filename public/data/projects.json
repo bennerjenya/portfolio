@@ -1,5 +1,12 @@
 [
   {
+    "name": "W-PRO",
+    "image": "w-pro.png",
+    "links": ["", "https://w-pro.pro"],
+    "stack": "Nuxt3 - TypeScript - SwiperJS - SCSS",
+    "text": "Website"
+  },
+  {
     "name": "Petmode",
     "image": "petmode.PNG",
     "links": ["", ""],
