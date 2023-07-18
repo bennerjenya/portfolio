@@ -1,0 +1,82 @@
+:root {
+    --main: #FFFFFF;
+    --secondary: #FFFFFF;
+    --text-white: #1A1A1A;
+    --text-gray: #1A1A1A;
+    --text-blue: #1F26B7;
+    --link-border: #C6C6C6;
+    --tab-border: #1F1E1E;
+}
+
+[data-theme='dark'] {
+    --main: #000000;
+    --secondary: #1A1A1A;
+    --text-white: #F0F0F0;
+    --text-gray: #C4C4C4;
+    --text-blue: #6CACE4;
+    --link-border: #C6C6C6;
+    --tab-border: #1F1E1E;
+}
+
+body:not([data-theme='dark']) .tab__button.active {
+    color: var(--main);
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: var(--main);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#app {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+body.noScroll {
+    overflow-y: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--main); /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--text-white); /* color of the scroll thumb */
+    border-radius: 5px; /* roundness of the scroll thumb */
+    border: 3px solid var(--main); /* creates padding around scroll thumb */
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-white);
+}
+
+a, button {
+    cursor: pointer;
+}
+
+menu, ol, ul {
+    list-style: none;
+}
+
+:where(:not(html,iframe,canvas,img,svg,video):not(svg *,symbol *)) {
+    all: unset;
+    display: revert;
+}

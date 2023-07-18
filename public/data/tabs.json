@@ -1,0 +1,72 @@
+[
+  {
+    "position": "Frontend Developer (Remote)",
+    "period": "Aug 2020 - Mar 2022",
+    "location": "Moscow / Russia",
+    "responsibilities": [
+      "- Developing small games using JS and later VueJS(Router, Vuex, i18n)",
+      "- Developing multi page dating apps",
+      "- Developing multi page sport apps",
+      "- In the course of work, I learned VueJS"
+    ],
+    "name": "Freelance",
+    "salary": "200 - 1200$"
+  },
+  {
+    "position": "Frontend Developer (Remote)",
+    "period": "Oct 2020 - Nov 2020",
+    "location": "Moscow / Russia",
+    "responsibilities": ["- Developing UI using Scrollmagic library"],
+    "name": "Zollaser",
+    "salary": "One-time project | 60$"
+  },
+  {
+    "position": "Frontend Developer (Remote)",
+    "period": "Apr 2021 - Jun 2021",
+    "location": "Moscow / Russia",
+    "responsibilities": ["- Developing UI using NuxtJS"],
+    "name": "Petmode",
+    "salary": "One-time project | 300$"
+  },
+  {
+    "position": "Frontend Developer (Remote)",
+    "period": "Feb 2021 - March 2021",
+    "location": "Moscow / Russia",
+    "responsibilities": ["- Developing UI using NuxtJS"],
+    "name": "YOD",
+    "salary": "One-time project | 200$"
+  },
+  {
+    "position": "Frontend Developer (Remote)",
+    "period": "Nov 2021 - Apr 2022",
+    "location": "Moscow / Russia",
+    "responsibilities": [
+      "- Developing UI",
+      "- Learned basics of D3 library",
+      "- Learned how to solve big tasks",
+      "- Learned how to work in a team"
+    ],
+    "name": "Agro smart assistant",
+    "salary": "700 - 1200$"
+  },
+  {
+    "position": "Frontend Developer (Remote)",
+    "period": "March 2022 - Apr 2022",
+    "location": "Moscow / Russia",
+    "responsibilities": ["- Developing UI"],
+    "name": "Remer",
+    "salary": "One-time project | 1100$"
+  },
+  {
+    "position": "Middle Frontend Developer (Remote)",
+    "period": "Sep 2022 - current",
+    "location": "Ekaterinburg / Russia",
+    "responsibilities": [
+      "- Developing UI using NextJS",
+      "- Better knowledge of NextJS",
+      "- Started working in a new position"
+    ],
+    "name": "Company",
+    "salary": "Part-time job | 500 - 800$"
+  }
+]

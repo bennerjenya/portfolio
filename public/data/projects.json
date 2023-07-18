@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Petmode",
+    "image": "petmode.PNG",
+    "links": ["", ""],
+    "stack": "NuxtJS - SwiperJS - SCSS",
+    "text": "Internet shop of pets"
+  },
+  {
+    "name": "YOD",
+    "image": "yod.PNG",
+    "links": ["", ""],
+    "stack": "NuxtJS - SwiperJS - SCSS",
+    "text": "Website"
+  },
+  {
+    "name": "Zollaser",
+    "image": "zollaser.PNG",
+    "links": ["", "https://zollaser.ru/"],
+    "stack": "HTML - CSS - JS(Scrollmagic)",
+    "text": "Exclusive Zollaser Distributor"
+  },
+  {
+    "name": "Agro smart assistant",
+    "image": "agro-sa-crop-rotation.jpg",
+    "links": ["", "https://agro-sa.ru/"],
+    "stack": "HTML - CSS - JS(Leaflet, D3)",
+    "text": "Morphometry"
+  },
+  {
+    "name": "Remer",
+    "image": "remer.PNG",
+    "links": ["", "http://masterbathroom.pro/"],
+    "stack": "HTML - CSS - JS(SwiperJS)",
+    "text": "Internet shop of faucets"
+  },
+  {
+    "name": "This portfolio",
+    "image": "portfolio.jpg",
+    "links": ["https://github.com/bennerjenya/portfolio", ""],
+    "stack": "Vue 3 - Composition API - Pinia - TS - SCSS",
+    "text": "Just for fun"
+  },
+  {
+    "name": "Pravoznay",
+    "image": "pravoznay.jpg",
+    "links": ["", "https://pravoznay.com/"],
+    "stack": "Next - TS - Styled-Components - Formik - Yup",
+    "text": "Website"
+  },
+  {
+    "name": "Vega-prom",
+    "image": "vega-prom.jpg",
+    "links": ["", "https://vega-prom.com/"],
+    "stack": "Next - TS - Styled-Components - Formik - Yup",
+    "text": "Website"
+  }
+]
