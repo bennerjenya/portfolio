@@ -3,11 +3,11 @@ import ImageModal from '@/components/ImageModal.vue';
 import { useModal } from '@/hooks/useModal';
 import type { ProjectProps } from '@/types/project';
 
-defineProps({
-  project: {
-    type: Object as () => ProjectProps,
-  },
-});
+interface Props {
+  project: ProjectProps;
+}
+
+const props = defineProps<Props>();
 
 const { isShown, openModal, closeModal } = useModal();
 </script>
@@ -15,16 +15,16 @@ const { isShown, openModal, closeModal } = useModal();
 <template>
   <div class="project">
     <div class="project__image">
-      <img :src="`/images/${project.image}`" alt="" />
+      <img :src="`/images/${props.project.image}`" alt="" />
       <div class="project__overlay" @click="openModal">
         <div class="project__overlayText">Click to zoom image</div>
       </div>
     </div>
     <div class="project__content">
       <div class="project__top">
-        <div class="project__name">{{ project.name }}</div>
+        <div class="project__name">{{ props.project.name }}</div>
         <div class="project__links">
-          <a :href="project.links[0]" target="_blank" rel="noopener">
+          <a :href="props.project.links[0]" target="_blank" rel="noopener">
             <svg
               width="24"
               height="25"
@@ -38,7 +38,7 @@ const { isShown, openModal, closeModal } = useModal();
               />
             </svg>
           </a>
-          <a :href="project.links[1]" target="_blank" rel="noopener">
+          <a :href="props.project.links[1]" target="_blank" rel="noopener">
             <svg
               width="24"
               height="25"
@@ -54,10 +54,10 @@ const { isShown, openModal, closeModal } = useModal();
           </a>
         </div>
       </div>
-      <div class="project__text">{{ project.text }}</div>
-      <div class="project__stack">{{ project.stack }}</div>
+      <div class="project__text">{{ props.project.text }}</div>
+      <div class="project__stack">{{ props.project.stack }}</div>
     </div>
-    <ImageModal :isShown="isShown" :hide="closeModal" :image="`/images/${project.image}`" />
+    <ImageModal :isShown="isShown" :hide="closeModal" :image="`/images/${props.project.image}`" />
   </div>
 </template>
 

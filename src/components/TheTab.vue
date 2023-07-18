@@ -19,9 +19,9 @@
 <script setup lang="ts">
 import type { TabProps } from '@/types/tab';
 
-const props = defineProps({
-  tab: {
-    type: Object as () => TabProps,
-  },
-});
+interface Props {
+  tab: TabProps;
+}
+
+const props = defineProps<Props>();
 </script>
